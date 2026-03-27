@@ -1,4 +1,4 @@
-Jenkinsfilpipeline {
+pipeline {
     agent any
 
     stages {
