@@ -5,7 +5,7 @@ Jenkinsfilpipeline {
         stage('Clone Code') {
             steps {
                 echo 'Cloning repository...'
-                git branch: 'main', url: 'https://github.com/YOUR_USERNAME/two-tier-flask-app.git'
+                git branch: 'main', url: 'https://github.com/thisislife433-dotcom/two-tier-flask-app'
             }
         }
 
@@ -44,8 +44,3 @@ Jenkinsfilpipeline {
         }
     }
 }
-```
-
-**Important** — replace `YOUR_USERNAME` with your actual GitHub username in this line:
-```
-url: 'https://github.com/thisislife433-dotcom/two-tier-flask-app.git'
